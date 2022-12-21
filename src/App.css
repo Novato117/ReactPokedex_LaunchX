@@ -1,38 +1,56 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titulo_seccion h1 {
+  background-color: blue;
+  margin: 14px 190px 21px 190px;
+  padding: 7px 0 11px 0;
+  box-shadow: rgb(88 84 117) 14px 8px 1px 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titulo_seccion button {
+  background-color: aqua;
+  cursor: pointer;
+  margin-left: 15px;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 20px 7px 10px -3px #bbb8a9, -1px 0px 21px 3px #1b7bcaab;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.titulo_seccion input {
+  background-color: rgb(184, 190, 124);
+  border: none;
+  padding: 7px;
+  margin-right: 46px;
+  border-radius: 2px;
+  box-shadow: rgb(88 84 117) 14px 8px 1px 2px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.interfaz {
+  background: red;
+
+  margin: 33px 263px 0 263px;
+  box-shadow: rgb(33 15 37) 15px 16px 0px 5px;
+  border-radius: 12px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.interfaz img {
+  background: rgb(181, 223, 191);
+  border-radius: 15px;
+  border: 5px solid white;
+
+}
+
+.interfaz h1 {
+  background-color: #bbb8a9;
+  margin: 0 130px 0 130px;
+  border-radius: 15px;
+
 }
